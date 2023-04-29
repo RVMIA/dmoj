@@ -1,0 +1,11 @@
+cases = int(input())
+for i in range(cases):
+    
+    A = int(input())
+    B = int(input())
+    P = int(input())
+
+    if A * B == P:
+        print("POSSIBLE DOUBLE SIGMA")
+    else:
+        print("16 BIT S/W ONLY")
